@@ -1,13 +1,63 @@
+/* formatting */
 body {
   font-family: Garamond;
   margin: 0;
   padding: 0; 
+  color: #f7f3f3;
 }
 
 h1, h2, h3 {
-  color: #333;
+  color: #15929b;
 }
 
 p {
   line-height: 1.5;
+  width: 500px;
+  margin: auto; /* sets it to center aligned */
 }
+
+/* buttons */
+
+/* .buttonLinkedIn {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.wrapper {
+	position:relative;
+}
+
+.logos
+{
+	/* width:50px;
+	height:50px; */
+	position:absolute;
+	right:0px;
+	bottom:8px;
+	padding: 0%;
+	display:flex;
+	/* transform: skew(20deg); */
+}
+
+.trapezoid-up {  /* going to use for the header */
+  border-bottom: 25px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #f7f3f3;
+	border-bottom: 26px solid transparent;
+}
+
+/* the dark is 1b1b1c */
+/* #f7f3f3 is the white */
+/* 15929b for fun teal */
