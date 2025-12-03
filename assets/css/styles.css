@@ -28,9 +28,9 @@ p {
   cursor: pointer;
 } */
 
-.wrapper {
+/* .wrapper {
 	position:relative;
-}
+} */
 
 .logos
 {
@@ -42,12 +42,6 @@ p {
 	padding: 0%;
 	display:flex;
 	/* transform: skew(20deg); */
-}
-
-.trapezoid-up {  /* going to use for the header */
-  border-bottom: 25px solid black;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
 }
 
 .triangle-left {
