@@ -1,36 +1,20 @@
 /* formatting */
+
 body {
-  font-family: Garamond;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0; 
   color: #f7f3f3;
 }
 
 h1, h2, h3 {
-  color: #15929b;
+  color: #f7f3f3;
 }
 
 p {
   line-height: 1.5;
   width: 500px;
-  margin: auto; /* sets it to center aligned */
 }
-
-/* buttons */
-
-/* .buttonLinkedIn {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 15px;
-  padding: 12px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-} */
-
-/* .wrapper {
-	position:relative;
-} */
 
 .logos
 {
@@ -50,6 +34,31 @@ p {
 	border-top: 25px solid transparent;
 	border-right: 50px solid #f7f3f3;
 	border-bottom: 26px solid transparent;
+}
+
+.homepage {
+  height:400px;
+  width:500px;
+  position:absolute; 
+  right:260px; 
+  top:100px;
+  /* display: flex; */
+  margin:auto;
+  background-color: #15929b;
+  border-style:outset;
+}
+
+.pagelink {
+  height:50px;
+  width:200px;
+  position:absolute;
+  left:260px;
+  /* set top manually */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #15929b;
+  border-style:outset;	
 }
 
 /* the dark is 1b1b1c */
