@@ -3,7 +3,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
-  padding: 0; 
   color: #f7f3f3;
 }
 
@@ -36,29 +35,41 @@ p {
 	border-bottom: 26px solid transparent;
 }
 
+.big {
+	display:flex;
+	flex-direction: row-reverse;
+	width:720px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:8%;
+	margin-bottom:8%;
+}
+
 .homepage {
   height:400px;
   width:500px;
-  position:absolute; 
-  right:260px; 
-  top:100px;
-  /* display: flex; */
   margin:auto;
   background-color: #15929b;
   border-style:outset;
+  text-align:center;
 }
 
-.pagelink {
-  height:50px;
-  width:200px;
-  position:absolute;
-  left:260px;
-  /* set top manually */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #15929b;
-  border-style:outset;	
+.pagelink_container {
+	/* top:100px; */
+	display:flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	gap:25px;
+	height:200px; 
+	width:150px;
+}
+
+.pagelink_container > * {
+	height:60px;
+	background-color: #15929b;
+  	border-style:outset;	
+	text-align: center;
+	border-color:#f7f3f3;
 }
 
 /* the dark is 1b1b1c */
