@@ -1,9 +1,14 @@
 /* formatting */
 
+html {
+	height:100%;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   color: #f7f3f3;
+  height:100vh;
 }
 
 h1, h2, h3 {
@@ -19,7 +24,7 @@ p {
 {
 	/* width:50px;
 	height:50px; */
-	position:absolute;
+	position:fixed;
 	right:0px;
 	bottom:8px;
 	padding: 0%;
@@ -61,7 +66,7 @@ p {
 	/* justify-content: space-between; */
 	gap:25px;
 	height:200px; 
-	width:150px;
+	width:175px;
 }
 
 .pagelink_container > * {
@@ -70,6 +75,32 @@ p {
   	border-style:outset;	
 	text-align: center;
 	border-color:#f7f3f3;
+}
+
+.wrapper {
+	display:flex;
+	gap:20px;
+	margin-top:20px;
+	margin-bottom:8px;
+	margin-right:20px;
+	margin-left:20px;
+	flex:1;
+}
+
+.main_container {
+	flex:1;
+	width:100%;
+	text-align:center;
+	border-style:outset;
+	border-color:#f7f3f3;
+	padding-bottom:20px;
+	display:flex;
+	flex-direction:column;
+}
+
+.main_container object {
+	width:100%;
+	flex:1;
 }
 
 /* the dark is 1b1b1c */
