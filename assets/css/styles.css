@@ -93,14 +93,37 @@ p {
 	text-align:center;
 	border-style:outset;
 	border-color:#f7f3f3;
-	padding-bottom:20px;
 	display:flex;
 	flex-direction:column;
+	max-height:94.75vh;
+	overflow-x:hidden;
+	overflow-y:scroll;
 }
 
 .main_container object {
 	width:100%;
 	flex:1;
+}
+
+.photo_row_container {
+	flex:1;
+	width:100%;
+	max-width: inherit;
+	display:flex;
+	flex-direction:row;
+}
+
+.photo_row_container figure {
+	flex:1;
+}
+
+figure img {
+	flex:1;
+	width:100%;
+	height:auto;
+	object-fit: contain;
+	border-style:groove;
+	border-color:#f7f3f3;
 }
 
 /* the dark is 1b1b1c */
